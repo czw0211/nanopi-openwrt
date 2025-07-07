@@ -5,7 +5,19 @@ CONFIG_TARGET_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2s=y
 CONFIG_TARGET_OPTIMIZATION="-O3 -pipe -march=armv8-a+crypto+crc -mcpu=cortex-a53+crypto+crc -mtune=cortex-a53"
 CONFIG_TARGET_ROOTFS_PARTSIZE=640
 
-
+CONFIG_TARGET_rockchip=y
+CONFIG_TARGET_rockchip_armv8=y
+CONFIG_TARGET_rockchip_armv8_DEVICE_friendlyarm_nanopi-r2s=y
+CONFIG_PACKAGE_kmod-rtl8xxxu=y
+CONFIG_PACKAGE_kmod-usb-net=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8152=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_iptables=y
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-compat=y
 
 CONFIG_PACKAGE_luci-app-ddnsto=y
 CONFIG_PACKAGE_luci-app-dockerman=y
